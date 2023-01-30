@@ -2,6 +2,6 @@ FROM python:3.10
 
 WORKDIR /app
 
-COPY . .
+COPY . /app
 
-ENTRYPOINT ["python", "test.py"]
+ENTRYPOINT ["python", "app.py"]
